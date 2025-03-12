@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(35.7deg, ivory 50%, pink 50%);
+}
+
+/* --------------- cap --------------*/
+
+.cap {
+    width: 960px;
+    height: 589px;
+    margin: auto;
+    background: ;
+}
+.cap .titol {
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    line-height: 2rem;
+    display: inline-block;
+    margin-top: 6%;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    display: inline-block;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tnegre {
+    color: black;
+}
+
+.tgrey {
+    color: grey;
+}
+
+/* --------------- cos --------------*/
+
+.cos {
+    position: relative;
+    width: 960px;
+    margin: auto;
+    background: ;
+}
+
+.caixa {
+    height: 240px;
+    width: 297px;
+    background: orange;
+    position: relative;
+    display: inline-block;
+    margin: 10px 10px 10px 10px;
+    opacity: 50%;
+}
+
+.caixa:hover {
+    opacity: 100%;
+}
+
+.cos .n1 {
+    background-image: url("../img/small/small_pulp.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n2 {
+    background-image: url("../img/small/small_taxi.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n3 {
+    background-image: url("../img/small/small_bond.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n4 {
+    background-image: url("../img/small/small_ghost.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n5 {
+    background-image: url("../img/small/small_bean.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n6 {
+    background-image: url("../img/small/small_back.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n7 {
+    background-image: url("../img/small/small_rider.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n8 {
+    background-image: url("../img/small/small_team.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.cos .n9 {
+    background-image: url("../img/small/small_break.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+.text {
+    position: absolute;
+    top: 203px;
+    width: 100%;
+    color: grey;
+    background-color: white;
+}
+
+
+
+/* --------------- peu --------------*/
+
+.peu {
+    width: 960px;
+    height: 220px;
+    margin: auto;
+    background-image: url("../img/logo_carsandfilms.png");
+    background-repeat: no-repeat;
+    padding-left: 100px;
+}
